@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -8,7 +8,7 @@ const Navbar = () => {
         <img src="https://media.licdn.com/dms/image/C4D16AQFHXSba8Nf89g/profile-displaybackgroundimage-shrink_200_800/0/1655103837481?e=2147483647&v=beta&t=6Jo4c8zN93e6xPmmkdIA6o8spzNTBoRCWjOWYe_tqi8" alt="Logo" />
       </div>
       <div className="navbar-links">
-        <a href="#home">Home</a>
+        <Link  to="/">Home</Link>
         <div className="dropdown">
           <a href="#courses" className="dropbtn">Courses</a>
           <div className="dropdown-content">

@@ -21,8 +21,10 @@
 }
 .hero-left p{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
+    opacity: 0.6;
+    text-align: left;
 }
 .hand-hand-icon{
     display: flex;

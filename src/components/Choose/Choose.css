@@ -12,6 +12,7 @@
 .choosep{
     text-align: center;
     font-size: 20px;
+    
 }
 .chooseflex{
     display: flex;
@@ -27,4 +28,7 @@
       width: 600px;
      padding-left: 10px;
     
+}
+.chooseflexbox p{
+opacity: 0.6;
 }

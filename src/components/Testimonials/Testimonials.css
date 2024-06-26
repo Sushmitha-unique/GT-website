@@ -12,6 +12,7 @@
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
     text-align: center;
+    
   }
   
   .testimonialflex {
@@ -36,6 +37,7 @@
   .testimonialflexbox p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    opacity: 0.6;
   }
   .testimonialflexbox:hover{
    background-color: rgb(139, 132, 132);
