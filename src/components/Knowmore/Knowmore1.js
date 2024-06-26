@@ -1,5 +1,5 @@
 import React from "react";
-import "./Knowmore.css";
+import "./Knowmore1.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Knowmore = () => {
