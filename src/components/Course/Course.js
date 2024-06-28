@@ -11,7 +11,7 @@ const Course = () =>{
          <div>
             <div className="courseBox">
                <div className="course">
-               <img src={course} alt=""/>
+               <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" alt=""/>
                <h2>Web Development Training</h2>
                <p>Unlock the world of web development with our comprehensive course. 
                 Learn the fundamentals of HTML, CSS, and JavaScript, and gain hands-on 
@@ -19,7 +19,7 @@ const Course = () =>{
                 <button className="coursebutton">Know More</button>
                </div>
                <div className="course">
-               <img src={course}  alt=""/>
+               <img src="https://intellibiinnovationstechnologies.in/wp-content/uploads/2023/06/43.jpg"  alt=""/>
                <h2>Java Full Stack Development</h2>
                <p>Dive into full stack development with our Java course. 
                 Master front-end and back-end technologies, including Spring Boot,
@@ -27,7 +27,7 @@ const Course = () =>{
                 <button className="coursebutton">Know More</button>
                </div>
                <div className="course">
-               <img src={course} alt="" />
+               <img src="https://www.cetpainfotech.com/wp-content/uploads/2023/12/How-To-Become-Python-Full-Stack-Developer-in-2024.jpg"alt="" />
                <h2>Python Full Stack Development </h2>
                <p>Explore the power of Python in our full stack course. 
                 From front-end development with Django and Flask to back-end integration with databases

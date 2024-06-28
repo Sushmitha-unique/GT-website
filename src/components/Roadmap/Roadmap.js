@@ -26,7 +26,7 @@ const info = [
     }
 ]
 const  Roadmap = () => {
-  const sectionCount = 15;
+  const sectionCount = 3;
   const [visibleSection, setVisibleSection] = useState(null);
   const [checkedSections, setCheckedSections] = useState(Array(sectionCount).fill(false));
 
@@ -43,26 +43,27 @@ const  Roadmap = () => {
   const progressPercentage = (checkedSections.filter(Boolean).length / sectionCount) * 100;
 
   return (
-    <div className="big-container1">
-      <div className="left-section1"></div>
-      <div className="right-section1">
+    <div className="big-container2">
+      <div className="left-section2"></div>
+      <div className="right-section2">
         <div>
           <h1 className="curriculumh1">WEB <i><span className="highlight">Curriculum</span></i></h1>
         </div>
         <div className="progress-bar-container">
           <div className="progress-bar" style={{ width: `${progressPercentage}%` }}></div>
         </div>
+       
         {info.map((item,i) => (
           <div key={item.id}>
             <div className="curriculum-header" onClick={() => toggleCurriculumVisibility(i + 1)}>
+            <input
+                  type="checkbox"
+                  checked={checkedSections[i]}
+                  onChange={() => handleCheckboxChange(i)}
+                  className="curriculum-checkbox"
+                /> 
               <h3 className='curr-font'>{item.modulename}</h3>
               <FontAwesomeIcon icon={faPlus} className={`plus-icon ${visibleSection === (i + 1) ? 'rotate' : ''}`} />
-              <input
-                type="checkbox"
-                checked={checkedSections[i]}
-                onChange={() => handleCheckboxChange(i)}
-                className="curriculum-checkbox"
-              />
             </div>
             <div className={`curriculum-content ${visibleSection === (i + 1) ? 'show' : ''}`}>
               <ul>
@@ -73,6 +74,7 @@ const  Roadmap = () => {
             </div>
           </div>
         ))}
+      
       </div>
     </div>
   );

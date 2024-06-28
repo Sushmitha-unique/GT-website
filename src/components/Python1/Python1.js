@@ -5,7 +5,7 @@ const Python1 = () => {
   return (
     <div>
       <div>
-        <h1 className='webdev-h1'>WHY Python</h1>
+        <h1 className='webdev-h1'>WHY Python?</h1>
       </div>
       <div>
         <span className='webdev-span'>What is Python?</span>

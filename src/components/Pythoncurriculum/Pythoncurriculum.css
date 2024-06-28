@@ -10,8 +10,8 @@
    
     width: 50%;
     height: 1000px; 
-    
     margin-left: 200px;
+    border-radius: 2px;
     background-color: #c9e88b;
   }
   
@@ -53,7 +53,9 @@
    
   }
   .curr-font{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    
   }
   
   .plus-icon {
