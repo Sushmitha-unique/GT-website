@@ -18,18 +18,15 @@ const App = () =>{
             <Navbar/>
           <Routes>
           <Route index element={<Homepage />} />
-<<<<<<< HEAD
           <Route path="/login" element={<LoginSignup />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/profile" element={<Profilepage/>} />
           <Route path="/return" element={<Return/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/roadmap" element={<Roadmap/>} />
-=======
           <Route path="/webpage"  element={<Webpage/>} />
           <Route path="/pythonpage"  element={<Pythonpage/>} />
           <Route path="/javapage" element={<Javapage/>} />
->>>>>>> 6cba6a06c8f35067a60710b5526ebc0b5bf8bda9
           </Routes>
             <Footer/> 
         </div>

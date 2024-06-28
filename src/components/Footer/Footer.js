@@ -2,6 +2,12 @@ import React from 'react';
 import "./Footer.css"
 import { Link } from 'react-router-dom';
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
   return (
     <footer className="bg-footer">
       <div className="footercontainer">
@@ -9,25 +15,25 @@ const Footer = () => {
           <div className="footer-section">
             <h6 className="footer-heading">Our Company</h6>
             <ul className="footer-link">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/Privacy Policy">Blog</Link></li>
+              <li><Link to="/" onClick={scrollToTop}>Home</Link></li>
+              <li><Link to="/about" onClick={scrollToTop}>About Us</Link></li>
+              <li><Link to="/Privacy Policy" onClick={scrollToTop}>Blog</Link></li>
             </ul>
           </div>
           <div className="footer-section">
             <h6 className="footer-heading">Courses</h6>
             <ul className="footer-link">
-              <li><Link to="#">Web development</Link></li>
-              <li><Link to="#">Java FullStack</Link></li>
-              <li><Link to="#">Python FullStack </Link></li>
+              <li><Link to="/webpage" onClick={scrollToTop}>Web development</Link></li>
+              <li><Link to="/javapage" onClick={scrollToTop}>Java FullStack</Link></li>
+              <li><Link to="/pythonpage" onClick={scrollToTop}>Python FullStack </Link></li>
             </ul>
           </div>
           <div className="footer-section">
             <h6 className="footer-heading">Help</h6>
             <ul className="footer-link">
-              <li><Link to="/login">Sign Up &amp;Login</Link></li>
-              <li><Link to="/Privacy Policy">Privacy Policy</Link></li>
-              <li><Link to="/return">Refund & Cancellation</Link></li>
+              <li><Link to="/login" onClick={scrollToTop}>Sign Up &amp;Login</Link></li>
+              <li><Link to="/Privacy Policy"onClick={scrollToTop}>Privacy Policy</Link></li>
+              <li><Link to="/return"onClick={scrollToTop}>Refund & Cancellation</Link></li>
             </ul>
           </div>
           <div className="footer-section">
@@ -42,6 +48,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="footer-alt"> &copy; 2024 Gangaaram Technologies Pvt Ltd - All Rights Reserved.</p>
+        
       </div>
     </footer>
   );
