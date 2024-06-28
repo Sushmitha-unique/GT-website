@@ -23,7 +23,6 @@ const Webcurriculum = () => {
         </div>
         <div className="curriculum-header" onClick={() => toggleCurriculumVisibility(1)}>
           <h3 className='curr-font'>Introduction to Web Development</h3>
-          <FontAwesomeIcon icon={faPlus} className={`plus-icon ${visibleSection === 1 ? 'rotate' : ''}`} />
         </div>
         <div className={`curriculum-content ${visibleSection === 1 ? 'show' : ''}`}>
           <ul>
@@ -35,7 +34,7 @@ const Webcurriculum = () => {
         
         <div className="curriculum-header" onClick={() => toggleCurriculumVisibility(2)}>
           <h3 className='curr-font'>Front-End Development Frameworks</h3>
-          <FontAwesomeIcon icon={faPlus} className={`plus-icon ${visibleSection === 2 ? 'rotate' : ''}`} />
+          
         </div>
         <div className={`curriculum-content ${visibleSection === 2 ? 'show' : ''}`}>
           <ul>

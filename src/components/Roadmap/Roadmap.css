@@ -1,0 +1,108 @@
+.big-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 90px;
+  }
+  
+  .left-section1 {
+    width: 50%;
+    height: 1000px;
+    margin-left: 200px;
+    background-color: #c9e88b;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-section1 {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-right: 100px;
+  }
+  
+  .curriculumh1 {
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: gold;
+  }
+  
+  .progress-bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: gold;
+    width: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .curriculum-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .curriculum-header:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .curr-font {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+  }
+  
+  .plus-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate {
+    transform: rotate(45deg);
+  }
+  
+  .curriculum-content {
+    display: none;
+    padding: 15px;
+    border-left: 3px solid #ddd;
+    margin-left: 15px;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .curriculum-content.show {
+    display: block;
+  }
+  
+  .curriculum-checkbox {
+    margin-left: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
