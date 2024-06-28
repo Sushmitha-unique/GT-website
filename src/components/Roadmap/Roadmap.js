@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Roadmap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import webroadmap from "..//..//Asserts/webroadmap.png";
 
 const info = [
     { id: 1, modulename: "Introduction to Web Development", topic1: "HTML (HyperText Markup Language)", topic2: "CSS (Cascading Style Sheets)", topic3: "JavaScript Basics and Advanced Concepts" },
@@ -65,7 +66,7 @@ const Roadmap = () => {
     const progressPercentage = (checkedSections.filter(Boolean).length / info.length) * 100;
 
     return (
-        <div className="big-container1">
+        <div className="big-container2">
             <div className='left'>
                 <h1 style={{ textAlign: "center" }}>Levels</h1>
                 <div className="curriculum-header1">
@@ -103,8 +104,14 @@ const Roadmap = () => {
                         checked={levelChecked[3]}
                         readOnly
                     />
+                    
+                </div>
+                <div className="roadmapimage">
+                    <img src={webroadmap} alt="roadmap" />
                 </div>
             </div>
+            
+           
             <div className="right">
                 <div>
                     <h1 className="curriculumh1">WEB <i><span className="highlight">Curriculum</span></i></h1>
@@ -115,14 +122,15 @@ const Roadmap = () => {
                 {info.map((item, i) => (
                     <div key={item.id}>
                         <div className="curriculum-header" onClick={() => toggleCurriculumVisibility(i + 1)}>
-                            <h3 className='curr-font'>{item.modulename}</h3>
-                            <FontAwesomeIcon icon={faPlus} className={`plus-icon ${visibleSection === (i + 1) ? 'rotate' : ''}`} />
-                            <input
+                        <input
                                 type="checkbox"
                                 checked={checkedSections[i]}
                                 onChange={() => handleCheckboxChange(i)}
                                 className="curriculum-checkbox"
                             />
+                            <h3 className='curr-font'>{item.modulename}</h3>
+                            <FontAwesomeIcon icon={faPlus} className={`plus-icon ${visibleSection === (i + 1) ? 'rotate' : ''}`} />
+                            
                         </div>
                         <div className={`curriculum-content ${visibleSection === (i + 1) ? 'show' : ''}`}>
                             <ul>
