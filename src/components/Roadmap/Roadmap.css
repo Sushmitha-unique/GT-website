@@ -1,21 +1,20 @@
 .big-container2 {
     display: flex;
     padding: 90px;
-    background-color: #c9e88b;
-
-  };
+  }
   
-  .left-section2 {
-    /* width: 10%;
-    height: 1000px; */
-    /* margin-left: 500px; */
-    background-color: white;
+  .left-section1 {
+    width: 50%;
+    height: 1000px;
+    margin-left: 200px;
+    background-color: #c9e88b;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
   }
-
-  .right-section2{
-    width: 70%;
+  
+  .right-section1 {
+    width: 100%;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 15px;
@@ -33,7 +32,7 @@
   }
   
   .highlight {
-    color: gold;
+    color:#1d5863;
   }
   
   .progress-bar-container {
@@ -46,12 +45,12 @@
   
   .progress-bar {
     height: 20px;
-    background-color: #1d5863;
+    background-color: gold;
     width: 0;
     transition: width 0.3s ease;
   }
   
-  .curriculum-header {
+  .curriculum-header1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,6 +61,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     transition: background-color 0.3s ease;
+   
   }
   
   .curriculum-header:hover {
