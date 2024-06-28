@@ -23,6 +23,90 @@ const info = [
         topic1:"Express.js",
         topic2:"Database Management",
         topic3:"APIs and RESTful Services"
+    },
+    {
+        id: 1,
+        modulename:"Introduction to Web Development",
+        topic1:"HTML (HyperText Markup Language)",
+        topic2:"CSS (Cascading Style Sheets)",
+        topic3:"JavaScript Basics and Advanced Concepts"
+    },
+    {
+        id: 2,
+        modulename:"Front-End Development Frameworks",
+        topic1:"React",
+        topic2:"Angular",
+        topic3:"Vue.js"
+    },
+    {
+        id: 3,
+        modulename:"Back-End Development with Node.js",
+        topic1:"Express.js",
+        topic2:"Database Management",
+        topic3:"APIs and RESTful Services"
+    },
+    {
+        id: 1,
+        modulename:"Introduction to Web Development",
+        topic1:"HTML (HyperText Markup Language)",
+        topic2:"CSS (Cascading Style Sheets)",
+        topic3:"JavaScript Basics and Advanced Concepts"
+    },
+    {
+        id: 2,
+        modulename:"Front-End Development Frameworks",
+        topic1:"React",
+        topic2:"Angular",
+        topic3:"Vue.js"
+    },
+    {
+        id: 3,
+        modulename:"Back-End Development with Node.js",
+        topic1:"Express.js",
+        topic2:"Database Management",
+        topic3:"APIs and RESTful Services"
+    },
+    {
+        id: 1,
+        modulename:"Introduction to Web Development",
+        topic1:"HTML (HyperText Markup Language)",
+        topic2:"CSS (Cascading Style Sheets)",
+        topic3:"JavaScript Basics and Advanced Concepts"
+    },
+    {
+        id: 2,
+        modulename:"Front-End Development Frameworks",
+        topic1:"React",
+        topic2:"Angular",
+        topic3:"Vue.js"
+    },
+    {
+        id: 3,
+        modulename:"Back-End Development with Node.js",
+        topic1:"Express.js",
+        topic2:"Database Management",
+        topic3:"APIs and RESTful Services"
+    },
+    {
+        id: 1,
+        modulename:"Introduction to Web Development",
+        topic1:"HTML (HyperText Markup Language)",
+        topic2:"CSS (Cascading Style Sheets)",
+        topic3:"JavaScript Basics and Advanced Concepts"
+    },
+    {
+        id: 2,
+        modulename:"Front-End Development Frameworks",
+        topic1:"React",
+        topic2:"Angular",
+        topic3:"Vue.js"
+    },
+    {
+        id: 3,
+        modulename:"Back-End Development with Node.js",
+        topic1:"Express.js",
+        topic2:"Database Management",
+        topic3:"APIs and RESTful Services"
     }
 ]
 const  Roadmap = () => {
