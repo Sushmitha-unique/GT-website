@@ -12,9 +12,9 @@ const Navbar = () => {
         <div className="dropdown">
           <a href="#courses" className="dropbtn">Courses</a>
           <div className="dropdown-content">
-            <a href="#web-development">Web Development</a>
-            <a href="#python">Python</a>
-            <a href="#Java">Java</a>
+            <a href="/Webpage">Web Development</a>
+            <a href="/Pythonpage">Python</a>
+            <a href="/Javapage">Java</a>
           </div>
         </div>
         <Link to="/about">About Us</Link>

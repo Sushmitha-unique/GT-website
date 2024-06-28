@@ -1,13 +1,13 @@
 import React from "react";
-import "./Knowmore1.css";
+import "./Java1.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-const Knowmore = () => {
+const Java1 = () => {
   return (
     <div className="container">
       <div className="left-section">
-        <h1 className="Heading1">WEB DEVELOPMENT</h1>
-        <p className="Heading2">4.5 (2567 Students)</p>
+        <h1 className="Heading1">JAVA FULL STACK</h1>
+        <p className="Heading2">4.0 (2567 Students)</p>
         <div className="rating" data-rating="4.5">
           <i className="fa fa-star"></i>
           <i className="fa fa-star"></i>
@@ -61,10 +61,10 @@ const Knowmore = () => {
       </div>
       <div className="right-section">
         <div className="course-image">
-          <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" alt="Course Image" />
-          <div className="buttons">
-            <button className="btn">Enroll Now</button>
-            <button className="btn">Learn More</button>
+          <img src="https://intellibiinnovationstechnologies.in/wp-content/uploads/2023/06/43.jpg" alt="Course Image" />
+          <div className="buttons1">
+            <button className="btn1">Enroll Now</button>
+           
           </div>
         </div>
       </div>
@@ -73,4 +73,4 @@ const Knowmore = () => {
   );
 };
 
-export default Knowmore;
+export default Java1;
