@@ -17,9 +17,9 @@ const Navbar = () => {
             <a href="#Java">Java</a>
           </div>
         </div>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#login" className="login">Login</a>
+        <Link to="/about">About Us</Link>
+        <Link to="/contact">Contact</Link>
+        {localStorage.getItem('auth-token')?<Link to="/profile" >Profile</Link>: <Link to="/login">Login</Link>}
       </div>
     </nav>
   );

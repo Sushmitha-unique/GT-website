@@ -9,8 +9,8 @@ const Footer = () => {
           <div className="footer-section">
             <h6 className="footer-heading">Our Company</h6>
             <ul className="footer-link">
-              <li><Link to="/Aboutus">About Us</Link></li>
-              <li><Link to="#">Our Team</Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
               <li><Link to="/Privacy Policy">Blog</Link></li>
             </ul>
           </div>
@@ -25,10 +25,9 @@ const Footer = () => {
           <div className="footer-section">
             <h6 className="footer-heading">Help</h6>
             <ul className="footer-link">
-              <li><Link to="/profile">Sign Up &amp;Login</Link></li>
+              <li><Link to="/login">Sign Up &amp;Login</Link></li>
               <li><Link to="/Privacy Policy">Privacy Policy</Link></li>
-              <li><Link to="#">Terms &amp; Conditions</Link></li>
-              <li><Link to="/helpcenter and faqs">Faq</Link></li>
+              <li><Link to="/return">Refund & Cancellation</Link></li>
             </ul>
           </div>
           <div className="footer-section">
