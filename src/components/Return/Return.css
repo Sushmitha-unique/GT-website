@@ -1,0 +1,22 @@
+
+.returnpolicy{
+    background-color: white;
+    width: 90%;
+    height: 80vh;
+   margin: 30px;
+   border-radius: 25px;
+  
+}
+.returnpolicy:hover{
+    box-shadow: 10px 0 10px 0 #1d5863;
+}
+.return-logo{
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.return-logo img{
+  height: 50px;
+}
+.returndiv{
+    margin-left: 20px;
+}
