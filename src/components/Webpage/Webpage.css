@@ -1,9 +1,10 @@
-.container {
+
+ .container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #fff
-}
+    background-color: white;
+} 
   
   .left-section {
     flex: 1;
@@ -89,28 +90,36 @@
     max-width: 60%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
   }
   
-  .buttons {
+  .buttons1 {
     margin-top: 20px;
     margin-top: 150px;
   }
+
+.buttons1 .btn1 {
+  display: inline-block;
+  padding: 15px 30px; 
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: black;
+  background: linear-gradient(90deg, #b7e650, #addc8f);
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
   
-  .buttons .btn {
-    display: inline-block;
-    padding: 20px 20px;
-    margin-right: 10px;
-    font-size: 1rem;
-    color:black;
-    background: linear-gradient(135deg,   #ace943,  rgb(94, 202, 229));
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .buttons .btn:hover {
-    background: linear-gradient(135deg, rgb(94, 202, 229), #ace943,);
-    
-  }
+}
+
+.buttons1 .btn1:hover {
+  background: linear-gradient(90deg, #d3dc4a, #9be284);
+  box-shadow: 0 6px 8px rgba(183, 219, 106, 0.15); 
+  transform: translateY(-2px); 
+}
+
+.buttons1 .btn1:active {
+  background: linear-gradient(90deg, #9be284, #d3dc4a);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transform: translateY(0);
+}

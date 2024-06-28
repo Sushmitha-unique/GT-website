@@ -1,0 +1,76 @@
+.big-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 90px;
+
+  }
+  
+  .left-section1 {
+   
+    width: 50%;
+    height: 1000px; 
+    
+    margin-left: 200px;
+    background-color: #c9e88b;
+  }
+  
+  .right-section1 {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid white;
+    
+    height:1000px;
+    margin-right: 100px;
+
+  }
+
+  .web-font {
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  .web-font-clicked {
+    font-family: 'Times New Roman', serif;
+    color: blue;
+  }
+  .curriculumh1{
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .curriculum-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    height: 20px;
+    
+   
+  }
+  .curr-font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .plus-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate {
+    transform: rotate(45deg);
+  }
+  
+  .curriculum-content {
+    display: none;
+    padding: 10px;
+    
+  }
+  
+  .curriculum-content.show {
+    display: block;
+  }
+  
