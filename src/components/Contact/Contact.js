@@ -15,7 +15,7 @@ const Contact = () => {
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyCsBQUyr1BVfUbGZ991WjvfzsnAeBG69Dw"
+    googleMapsApiKey: ""
   });
 
   const [map, setMap] = React.useState(null);
