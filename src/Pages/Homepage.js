@@ -5,6 +5,7 @@ import Choose from "../components/Choose/Choose";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Team from "../components/Team/Team";
 import Aihelpdesk from "../components/Aihelp/Aihelpdesk";
+import Coursead from "../components/Coursead/Coursead";
 const Homepage = () =>{
     const [showHelpDesk, setShowHelpDesk] = useState(false);
 
@@ -22,6 +23,7 @@ const Homepage = () =>{
            <Choose/>
            <Testimonials/>
            <Team/>
+           <Coursead/>
            {showHelpDesk && <Aihelpdesk />}
         </div>
     )

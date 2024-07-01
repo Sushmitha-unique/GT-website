@@ -43,8 +43,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1d5863;
-    color: #fff;
+    background-color: #e6f2cf;
+    border-radius: 10px;
+    color:black;
     display: flex;
     flex-direction: column;
     justify-content: center;
