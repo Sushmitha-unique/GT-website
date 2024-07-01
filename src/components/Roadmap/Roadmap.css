@@ -15,10 +15,22 @@
     margin-left: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #1d5863;
-    
+    /* background-color: whitesmoke; */
+    background: linear-gradient(135deg,   #d2dbc4,  rgb(191, 208, 212));
   }
+
+
+.left h1 {
+    text-align: center;
+   
+    margin-bottom: 20px;
+    color: #343a40; 
+    font-size: xx-larger;
+}
+
+
   
+
   .right{
     width: 100%;
     padding: 20px;
@@ -27,8 +39,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    margin-left: 60px;
     margin-right: 10px;
-    background-color: #c9e88b;
-
+    background: linear-gradient(135deg,   #e0eec8,  rgb(204, 237, 245));
+    overflow-y: auto;
   }
   
   .curriculumh1 {
@@ -68,6 +80,8 @@
     border-radius: 10px;
     margin-bottom: 10px;
     transition: background-color 0.3s ease;
+    margin-left: 20px;
+    margin-right: 20px;
    
   }
   
