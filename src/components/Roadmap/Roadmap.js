@@ -36,6 +36,7 @@ const Roadmap = () => {
         updatedCheckedSections[index] = !updatedCheckedSections[index];
         setCheckedSections(updatedCheckedSections);
         const totalChecked = updatedCheckedSections.filter(Boolean).length;
+        localStorage.setItem('checked',totalChecked);
         const newLevelChecked = [...levelChecked];
         if (totalChecked >= 15) {
             newLevelChecked[3] = true; 
@@ -68,7 +69,7 @@ const Roadmap = () => {
     return (
         <div className="big-container2">
             <div className='left'>
-                <h1 style={{ textAlign: "center" }}>Levels</h1>
+                <h1 className='level'>Levels</h1>
                 <div className="curriculum-header1">
                     <h3 className='curr-font'>Beginner</h3>
                     <input
@@ -119,9 +120,10 @@ const Roadmap = () => {
                 <div className="progress-bar-container">
                     <div className="progress-bar" style={{ width: `${progressPercentage}%` }}></div>
                 </div>
+                <div>
                 {info.map((item, i) => (
                     <div key={item.id}>
-                        <div className="curriculum-header" onClick={() => toggleCurriculumVisibility(i + 1)}>
+                        <div className="curriculum-header1" onClick={() => toggleCurriculumVisibility(i + 1)}>
                         <input
                                 type="checkbox"
                                 checked={checkedSections[i]}
@@ -133,7 +135,7 @@ const Roadmap = () => {
                             
                         </div>
                         <div className={`curriculum-content ${visibleSection === (i + 1) ? 'show' : ''}`}>
-                            <ul>
+                            <ul type='square'>
                                 <li>{item.topic1}</li>
                                 <li>{item.topic2}</li>
                                 <li>{item.topic3}</li>
@@ -141,6 +143,7 @@ const Roadmap = () => {
                         </div>
                     </div>
                 ))}
+                </div>
             </div>
         </div>
     );
